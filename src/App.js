@@ -9,9 +9,11 @@ const App = () => {
       <button>About</button>
       <button>Purchase</button>
       <button>Tell me a joke!</button>
-
+      <br></br>
+      <br></br>
       <img src="" alt="history is a joke hero image" />
-
+      <br></br>
+      <br></br>
       <div className="image-text-sections">
         <div className="text-sections">
           <h2>hey put some text in here!</h2>
@@ -22,12 +24,12 @@ const App = () => {
         </div>
       </div>
 
-      <div className="image-text-sections">
-        <div className="text-sections">
+      <div className="image-text-sections-alternate">
+        <div className="text-sections-alt">
           <h2>hey put some text in here!</h2>
           <button>and an action button!</button>
         </div>
-        <div className="image-sections">
+        <div className="image-sections-alt">
           <img src="" alt="joke image" />
         </div>
       </div>
