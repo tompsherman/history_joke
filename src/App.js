@@ -11,7 +11,10 @@ const App = () => {
       <button>Tell me a joke!</button>
       <br></br>
       <br></br>
-      <img src="" alt="history is a joke hero image" />
+      <img
+        src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/95733817_2604194516567196_2046409293565001728_o.jpg?_nc_cat=111&_nc_sid=e3f864&_nc_ohc=QXEEz4KLvf8AX9iGB8R&_nc_ht=scontent-iad3-1.xx&oh=ade0cf1d4ee02b7326213943b87aa7f8&oe=5FA37A10"
+        alt="history is a joke hero image"
+      />
       <br></br>
       <br></br>
       <div className="image-text-sections">
@@ -20,7 +23,10 @@ const App = () => {
           <button>and an action button!</button>
         </div>
         <div className="image-sections">
-          <img src="" alt="joke image" />
+          <img
+            src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/95100244_2603588853294429_4865999321310429184_n.png?_nc_cat=109&_nc_sid=09cbfe&_nc_ohc=evxCmziLMvsAX961eO6&_nc_ht=scontent-iad3-1.xx&oh=4b743f9ba6976d439ff8bbc32e9b7a73&oe=5FA452ED"
+            alt="joke image"
+          />
         </div>
       </div>
 
@@ -30,7 +36,10 @@ const App = () => {
           <button>and an action button!</button>
         </div>
         <div className="image-sections-alt">
-          <img src="" alt="joke image" />
+          <img
+            src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/95100244_2603588853294429_4865999321310429184_n.png?_nc_cat=109&_nc_sid=09cbfe&_nc_ohc=evxCmziLMvsAX961eO6&_nc_ht=scontent-iad3-1.xx&oh=4b743f9ba6976d439ff8bbc32e9b7a73&oe=5FA452ED"
+            alt="joke image"
+          />
         </div>
       </div>
 
@@ -40,7 +49,10 @@ const App = () => {
           <button>and an action button!</button>
         </div>
         <div className="image-sections">
-          <img src="" alt="joke image" />
+          <img
+            src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/95100244_2603588853294429_4865999321310429184_n.png?_nc_cat=109&_nc_sid=09cbfe&_nc_ohc=evxCmziLMvsAX961eO6&_nc_ht=scontent-iad3-1.xx&oh=4b743f9ba6976d439ff8bbc32e9b7a73&oe=5FA452ED"
+            alt="joke image"
+          />
         </div>
       </div>
 
