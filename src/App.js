@@ -5,15 +5,21 @@ import "./App.css";
 
 const App = () => {
   const [toggle, setToggle] = useState(false)
+  const [joke, setJoke] = useState({
+    joke: "",
+    explanation: ""
+  })
 
   const randomJoke = () => {
     setToggle(true)
     let random = Math.floor(Math.random()*4) 
     let result = jokedata[random]
-    console.log( result) 
+    setJoke(result)
+    console.log( joke )
 
   }
 
+  
   return (
     <div className="App">
       <h1>History is a Joke</h1>
@@ -26,8 +32,8 @@ const App = () => {
           toggle ? (
               <div>
                 <h3>So you want a joke, eh?</h3>
-                <p> this is the joke </p>
-                <p> this is the explanation</p>
+                <p>{joke.joke}</p>
+                <p>{joke.explanation}</p>
               </div>
             ) : (null)
         }
