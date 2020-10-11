@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import jokedata from "./data/jokedata"
 
 import "./App.css";
 
@@ -6,7 +7,11 @@ const App = () => {
   const [toggle, setToggle] = useState(false)
 
   const randomJoke = () => {
-    setToggle(true)  
+    setToggle(true)
+    let random = Math.floor(Math.random()*4) 
+    let result = jokedata[random]
+    console.log( result) 
+
   }
 
   return (

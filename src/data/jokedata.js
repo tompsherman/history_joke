@@ -13,5 +13,9 @@ export default [
         joke: "this is a third history joke",
         explanation:
           "this is a third explanation",
+    },
+    {
+        joke: "jeez, kid",
+        explanation: "just buy the book already"
     }
 ]
