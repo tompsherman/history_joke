@@ -36,6 +36,8 @@ const App = () => {
                 <p>{joke.jokeQ}</p>
                 <p>{joke.jokeA}</p>
                 <p>{joke.explanation}</p>
+                 { index === 0?
+                   (<a href={joke.url}>get the book</a>):(null)}
               </div>
             ) : (null)
         }
