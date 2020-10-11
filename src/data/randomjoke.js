@@ -5,9 +5,9 @@ export default [
           "this is an explanation",
     },
     {
-        joke: "this is a history joke",
+        joke: "this is another history joke",
         explanation:
-          "this is an explanation",
+          "this is another explanation",
     },
     {
         joke: "this is a third history joke",
