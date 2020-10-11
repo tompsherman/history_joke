@@ -94,3 +94,8 @@
   align-items: center;
   background-color: blue;
 }
+
+.rando-joke {
+  width: 70%;
+  margin: 0 auto;
+}

@@ -9,12 +9,13 @@ const App = () => {
     joke: "",
     explanation: ""
   })
+  const [index, setIndex] = useState(0)
 
   const randomJoke = () => {
     setToggle(true)
-    let random = Math.floor(Math.random()*4) 
-    let result = jokedata[random]
+    let result = jokedata[index]
     setJoke(result)
+    setIndex(index<3? (index+1):(0))
     console.log( joke )
 
   }
@@ -27,12 +28,13 @@ const App = () => {
       <button>Purchase</button>
       <button onClick={randomJoke}>Tell me a joke!</button>
       <br></br>
-      <div>
+      <div className="rando-joke">
         {
           toggle ? (
               <div>
                 <h3>So you want a joke, eh?</h3>
-                <p>{joke.joke}</p>
+                <p>{joke.jokeQ}</p>
+                <p>{joke.jokeA}</p>
                 <p>{joke.explanation}</p>
               </div>
             ) : (null)
