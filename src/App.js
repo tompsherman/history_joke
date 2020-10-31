@@ -2,21 +2,22 @@ import React, {useState} from "react";
 import jokedata from "./data/jokedata"
 
 import "./App.css";
+import JokeGenerator from "./components/JokeGenerator"
 
 const App = () => {
-  const [toggle, setToggle] = useState(false)
-  const [joke, setJoke] = useState({
-    joke: "",
-    explanation: ""
-  })
-  const [index, setIndex] = useState(0)
+  // const [toggle, setToggle] = useState(false)
+  // const [joke, setJoke] = useState({
+  //   joke: "",
+  //   explanation: ""
+  // })
+  // const [index, setIndex] = useState(0)
 
-  const randomJoke = () => {
-    setToggle(true)
-    let result = jokedata[index]
-    setJoke(result)
-    setIndex(index<3? (index+1):(0))
-  }
+  // const randomJoke = () => {
+  //   setToggle(true)
+  //   let result = jokedata[index]
+  //   setJoke(result)
+  //   setIndex(index<3? (index+1):(0))
+  // }
 
   
   return (
@@ -24,7 +25,8 @@ const App = () => {
       <h1>History is a Joke</h1>
       <button>About</button>
       <button>Purchase</button>
-      <button onClick={randomJoke}>Tell me a joke!</button>
+      <JokeGenerator />
+      {/*<button onClick={randomJoke}>Tell me a joke!</button>
       <br></br>
       <div className="rando-joke">
         {
@@ -39,7 +41,7 @@ const App = () => {
               </div>
             ) : (null)
         }
-      </div>
+      </div> */}
       <br></br>
       <img className="hero-image"
         src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/95733817_2604194516567196_2046409293565001728_o.jpg?_nc_cat=111&_nc_sid=e3f864&_nc_ohc=QXEEz4KLvf8AX9iGB8R&_nc_ht=scontent-iad3-1.xx&oh=ade0cf1d4ee02b7326213943b87aa7f8&oe=5FA37A10"
