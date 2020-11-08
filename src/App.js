@@ -26,7 +26,7 @@ const App = () => {
       <div className="nav-button" onClick="location.href='https://www.amazon.com/U-S-History-Joke-Billy-Peden/dp/B087629N8S'">
             About
       </div>
-      <button src="https://www.amazon.com/U-S-History-Joke-Billy-Peden/dp/B087629N8S">Purchase</button>
+      <button href="https://www.amazon.com/U-S-History-Joke-Billy-Peden/dp/B087629N8S">Purchase</button>
       <JokeGenerator />
       {/*<button onClick={randomJoke}>Tell me a joke!</button>
       <br></br>
