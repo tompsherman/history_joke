@@ -58,7 +58,7 @@ const App = () => {
         </div>
         <div className="image-sections">
           <img className="body-image"
-            src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/95100244_2603588853294429_4865999321310429184_n.png?_nc_cat=109&_nc_sid=09cbfe&_nc_ohc=evxCmziLMvsAX961eO6&_nc_ht=scontent-iad3-1.xx&oh=4b743f9ba6976d439ff8bbc32e9b7a73&oe=5FA452ED"
+            src="https://res.cloudinary.com/dzom9ahsn/image/upload/v1604867239/history%20isa%20joke/hjoke_prof_btxsxw.png"
             alt="joke image"
           />
         </div>
@@ -76,7 +76,7 @@ const App = () => {
         <div className="image-sections-alt">
           <img
           className="body-image"
-            src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/95100244_2603588853294429_4865999321310429184_n.png?_nc_cat=109&_nc_sid=09cbfe&_nc_ohc=evxCmziLMvsAX961eO6&_nc_ht=scontent-iad3-1.xx&oh=4b743f9ba6976d439ff8bbc32e9b7a73&oe=5FA452ED"
+            src="https://res.cloudinary.com/dzom9ahsn/image/upload/v1604867239/history%20isa%20joke/hjoke_prof_btxsxw.png"
             alt="joke image"
           />
         </div>
@@ -90,7 +90,7 @@ const App = () => {
         <div className="image-sections">
           <img
           className="body-image"
-            src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/95100244_2603588853294429_4865999321310429184_n.png?_nc_cat=109&_nc_sid=09cbfe&_nc_ohc=evxCmziLMvsAX961eO6&_nc_ht=scontent-iad3-1.xx&oh=4b743f9ba6976d439ff8bbc32e9b7a73&oe=5FA452ED"
+            src="https://res.cloudinary.com/dzom9ahsn/image/upload/v1604867239/history%20isa%20joke/hjoke_prof_btxsxw.png"
             alt="joke image"
           />
         </div>
