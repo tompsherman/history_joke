@@ -13,7 +13,7 @@ const JokeGenerator = () => {
       setToggle(true)
       let result = jokedata[index]
       setJoke(result)
-      setIndex(index<3? (index+1):(0))
+      setIndex(index < 3 ? (index + 1) : (0))
     }    
     return (
         <div>
