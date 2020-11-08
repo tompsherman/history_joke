@@ -57,6 +57,7 @@
   justify-content: center;
   align-items: center;
   background-color: red;
+  color: whitesmoke;
 }
 .image-text-sections-alternate {
   display: flex;
@@ -82,9 +83,20 @@
   justify-content: center;
   align-items: center;
   background-color: blue;
+  color: whitesmoke;
 }
 
 .rando-joke {
   width: 70%;
   margin: 0 auto;
+}
+.nav-button {
+  margin: 0 10px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+  background: dimgray;
 }
