@@ -58,7 +58,9 @@ const App = () => {
           <h2>History is a Joke...Book is the first, funniest historically accurate history joke textbook in the world!</h2>
           <p>Do you ever get the feeling history is a joke? If so, you might be right! While history is normally written by the victors, this time its written by professional comedians. History Is a Joke Vol. 1 is a comedic crash course in Early American history, from its discovery in 1492 through the start of the Civil War, and is great for students, history buffs, and jokers alike!</p>
           <br></br>
-          <button href="https://www.amazon.com/U-S-History-Joke-Billy-Peden/dp/B087629N8S">Stop dillydallying buy the book!</button>
+          <a href="https://www.amazon.com/U-S-History-Joke-Billy-Peden/dp/B087629N8S">
+          <div className="nav-button">Stop dillydallying buy the book!</div>
+          </a>
         </div>
         <div className="image-sections">
           <img className="body-image"
@@ -75,8 +77,9 @@ const App = () => {
           <br>
           </br>
           Factual and funny, this book is chock full of 100% original, hilarious jokes, puns, & witticisms along with historically accurate explanations. They say those who do not learn history are doomed to repeat it, but with History Is A Joke every time you repeat history you'll be rewarded with laughter, praise, and adoration from friends, family, and even random strangers on the bus</p>
-         <a href="https://www.amazon.com/U-S-History-Joke-Billy-Peden/dp/B087629N8S"> <button>I get to laugh & learn? Take my money!</button></a>
-        </div>
+          <a href="https://www.amazon.com/U-S-History-Joke-Billy-Peden/dp/B087629N8S">
+          <div className="nav-button">I get to laugh & learn? Take my money!</div>
+          </a>
         <div className="image-sections-alt">
           <img
           className="body-image"
@@ -89,7 +92,9 @@ const App = () => {
       <div className="image-text-sections">
         <div className="text-sections">
           <h2>This book was co-authored by a teacher, a mad scientist, and two professional comedians!</h2>
-          <a href="https://www.amazon.com/U-S-History-Joke-Billy-Peden/dp/B087629N8S"><button>What more could you ask for?!?</button></a>
+          <a href="https://www.amazon.com/U-S-History-Joke-Billy-Peden/dp/B087629N8S">
+          <div className="nav-button">What more could you ask for?!?</div>
+          </a>
         </div>
         <div className="image-sections">
           <img
