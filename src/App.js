@@ -85,7 +85,7 @@ const App = () => {
       <div className="image-text-sections">
         <div className="text-sections">
           <h2>This book was co-authored by a teacher, a mad scientist, and two professional comedians!</h2>
-          <button src="https://www.amazon.com/U-S-History-Joke-Billy-Peden/dp/B087629N8S">What more could you ask for?!?</button>
+          <button href="https://www.amazon.com/U-S-History-Joke-Billy-Peden/dp/B087629N8S">What more could you ask for?!?</button>
         </div>
         <div className="image-sections">
           <img
