@@ -23,8 +23,8 @@ const App = () => {
   return (
     <div className="App">
       <h1>History is a Joke</h1>
-      <div className="nav-button" onClick="location.href='https://www.amazon.com/U-S-History-Joke-Billy-Peden/dp/B087629N8S'">
-            About
+      <div className="nav-button">
+            <a href="https://www.amazon.com/U-S-History-Joke-Billy-Peden/dp/B087629N8S">About</a>
       </div>
       <button href="https://www.amazon.com/U-S-History-Joke-Billy-Peden/dp/B087629N8S">Purchase</button>
       <JokeGenerator />
