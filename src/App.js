@@ -23,9 +23,11 @@ const App = () => {
   return (
     <div className="App">
       <h1>History is a Joke</h1>
+            <a href="https://www.amazon.com/U-S-History-Joke-Billy-Peden/dp/B087629N8S">
       <div className="nav-button">
-            <a href="https://www.amazon.com/U-S-History-Joke-Billy-Peden/dp/B087629N8S">About</a>
+      About
       </div>
+      </a>
       <button href="https://www.amazon.com/U-S-History-Joke-Billy-Peden/dp/B087629N8S">Purchase</button>
       <JokeGenerator />
       {/*<button onClick={randomJoke}>Tell me a joke!</button>
