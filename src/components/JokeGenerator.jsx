@@ -17,9 +17,9 @@ const JokeGenerator = () => {
     }    
     return (
         <div>
-            <button onClick={randomJoke}>Tell me a joke!</button>
-            <br></br>
-            <div className="rando-joke">
+        <div className="nav-button" onClick={randomJoke}>Tell me a joke!</div>
+        <br></br>
+        <div className="rando-joke">
                 {
                   toggle ? (
                       <div>
