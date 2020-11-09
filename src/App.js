@@ -80,6 +80,7 @@ const App = () => {
           <a href="https://www.amazon.com/U-S-History-Joke-Billy-Peden/dp/B087629N8S">
           <div className="nav-button">I get to laugh & learn? Take my money!</div>
           </a>
+        </div>
         <div className="image-sections-alt">
           <img
           className="body-image"
