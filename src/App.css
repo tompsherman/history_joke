@@ -90,6 +90,10 @@
   width: 70%;
   margin: 0 auto;
 }
+.nav-container {
+  display: flex;
+  width: 100%;
+}
 .nav-button {
   margin: 0 10px;
   border: 1px solid lightgray;
@@ -99,11 +103,7 @@
   text-decoration: none;
   margin-bottom: 20px;
   background: dimgray;
-  width: 10%;
-}
-.nav-container {
-  display: flex;
-  width: 100%;
+  width: 30%;
 }
 .text-button {
   margin: 0 10px;
