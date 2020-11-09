@@ -103,6 +103,7 @@
 }
 .nav-container {
   display: flex;
+  width: 100%;
 }
 .text-button {
   margin: 0 10px;
