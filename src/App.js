@@ -59,9 +59,7 @@ const App = () => {
           <p>Do you ever get the feeling history is a joke? If so, you might be right! While history is normally written by the victors, this time its written by professional comedians. History Is a Joke Vol. 1 is a comedic crash course in Early American history, from its discovery in 1492 through the start of the Civil War, and is great for students, history buffs, and jokers alike!</p>
           <br></br>
           <a href="https://www.amazon.com/U-S-History-Joke-Billy-Peden/dp/B087629N8S">
-          <div className="nav-button">Stop dillydallying buy the book!</div>
-          </a>
-        </div>
+        
         <div className="image-sections">
           <img className="body-image"
             src="https://res.cloudinary.com/dzom9ahsn/image/upload/v1604867239/history%20isa%20joke/hjoke_prof_btxsxw.png"
