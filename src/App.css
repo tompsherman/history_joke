@@ -101,6 +101,9 @@
   background: dimgray;
   width: 10%;
 }
+.nav-container {
+  display: flex;
+}
 .text-button {
   margin: 0 10px;
   border: 1px solid lightgray;

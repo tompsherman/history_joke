@@ -23,13 +23,15 @@ const App = () => {
   return (
     <div className="App">
       <h1>History is a Joke</h1>
-      <a href="https://www.amazon.com/U-S-History-Joke-Billy-Peden/dp/B087629N8S">
-        <div className="nav-button">About</div>
-      </a>
-      <a href="https://www.amazon.com/U-S-History-Joke-Billy-Peden/dp/B087629N8S">
-        <div className="nav-button">Purchase</div>
-      </a>
-      <JokeGenerator />
+      <div className="nav-container">
+        <a href="https://www.amazon.com/U-S-History-Joke-Billy-Peden/dp/B087629N8S">
+          <div className="nav-button">About</div>
+        </a>
+        <a href="https://www.amazon.com/U-S-History-Joke-Billy-Peden/dp/B087629N8S">
+          <div className="nav-button">Purchase</div>
+        </a>
+        <JokeGenerator />
+      </div>
       {/*<button onClick={randomJoke}>Tell me a joke!</button>
       <br></br>
       <div className="rando-joke">
