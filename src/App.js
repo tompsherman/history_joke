@@ -58,7 +58,9 @@ const App = () => {
           <h2>History is a Joke...Book is the first, funniest historically accurate history joke textbook in the world!</h2>
           <p>Do you ever get the feeling history is a joke? If so, you might be right! While history is normally written by the victors, this time its written by professional comedians. History Is a Joke Vol. 1 is a comedic crash course in Early American history, from its discovery in 1492 through the start of the Civil War, and is great for students, history buffs, and jokers alike!</p>
           <br></br>
-         
+          <a href="https://www.amazon.com/U-S-History-Joke-Billy-Peden/dp/B087629N8S">
+          <div className="text-button">Stop dillydallying buy the book!</div>
+          </a>
         </div>
         <div className="image-sections">
           <img className="body-image"
