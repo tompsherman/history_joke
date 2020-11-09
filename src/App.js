@@ -78,7 +78,7 @@ const App = () => {
           </br>
           Factual and funny, this book is chock full of 100% original, hilarious jokes, puns, & witticisms along with historically accurate explanations. They say those who do not learn history are doomed to repeat it, but with History Is A Joke every time you repeat history you'll be rewarded with laughter, praise, and adoration from friends, family, and even random strangers on the bus</p>
           <a href="https://www.amazon.com/U-S-History-Joke-Billy-Peden/dp/B087629N8S">
-          <div className="nav-button">I get to laugh & learn? Take my money!</div>
+          <div className="text-button">I get to laugh & learn? Take my money!</div>
           </a>
         </div>
         <div className="image-sections-alt">
@@ -94,7 +94,7 @@ const App = () => {
         <div className="text-sections">
           <h2>This book was co-authored by a teacher, a mad scientist, and two professional comedians!</h2>
           <a href="https://www.amazon.com/U-S-History-Joke-Billy-Peden/dp/B087629N8S">
-          <div className="nav-button">What more could you ask for?!?</div>
+          <div className="text-button">What more could you ask for?!?</div>
           </a>
         </div>
         <div className="image-sections">
