@@ -92,19 +92,19 @@
 }
 .nav-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  padding: 10%;
 }
 .nav-button {
-  margin: 0 10px;
   border: 1px solid lightgray;
+  margin: 1%;
   padding: 20px;
   border-radius: 20px;
   color: white;
   text-decoration: none;
   margin-bottom: 20px;
   background: dimgray;
-  width: 70%;
 }
 .text-button {
   margin: 0 10px;
